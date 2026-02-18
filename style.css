@@ -1,0 +1,73 @@
+:root{
+--orange:#FF6A00;
+--black:#0B0B0B;
+--white:#FFFFFF;
+}
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:var(--black);
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 40px;
+background:#000;
+}
+
+.logo{
+font-size:26px;
+font-weight:bold;
+color:var(--orange);
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+nav a:hover{
+color:var(--orange);
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+url('https://images.unsplash.com/photo-1519861531473-9200262188bf?q=80&w=1974&auto=format&fit=crop');
+background-size:cover;
+}
+
+.btn{
+background:var(--orange);
+padding:14px 30px;
+color:white;
+text-decoration:none;
+display:inline-block;
+margin-top:20px;
+font-weight:bold;
+}
+
+.section{
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+text-align:center;
+}
+
+.card{
+background:#111;
+padding:30px;
+margin:20px;
+border-top:4px solid var(--orange);
+}
+
